@@ -1,0 +1,25 @@
+{
+  "name": "company-api",
+  "version": "1.0.0",
+  "description": "API for listing companies",
+  "main": "companyAPI.js",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js && node companyAPI.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobugabarca/company-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobugabarca/company-api/issues"
+  },
+  "homepage": "https://github.com/bobugabarca/company-api#readme"
+}
